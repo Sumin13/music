@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f7f7f7;
+}
+.the-whole {
+  width: 400px;
+  height: 700px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 40px;
+}
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+  font-size: 25px;
+}
+.main-page {
+  display: flex;
+  justify-content: center;
+}
+.main-page img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.main-des__singer {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.main-des__genre {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  opacity: 0.7;
+  padding-bottom: 20px;
+}
+
+.icons-icon {
+  display: flex;
+  justify-content: space-around;
+}
+.icons-icon__shuffle {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 20px;
+  padding: 10px 40px;
+}
+
+.icons-icon__number {
+  border-radius: 20px;
+  padding: 10px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.cruel-summer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.cruel-summer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.cruel-summer__details i {
+  display: inline;
+}
